@@ -19,10 +19,10 @@ class ProductManager {
     #products; // solo la clase va a poder manipular esto
     #id;
     #path;
-    constructor(ruta) {
+    constructor(path) {
         this.#products = [];
         this.#id = 0;
-        this.#path = ruta
+        this.#path = path
 
         try {
             //fs.mkdirSync(this.#path)
@@ -38,15 +38,15 @@ class ProductManager {
         
     }
 
-    addProduct = (Datos) => { // recibe un objeto.
+    addProduct = (data) => { // recibe un objeto.
 
-        if (Datos.title == undefined || Datos.description == undefined || Datos.price == undefined || Datos.thumbnail == undefined || Datos.code == undefined) return console.error("ERROR: El metodo 'addProduct' necesita si o si de los valores: title, description, price, thumbnail, code, stock")
+        if (data.title == undefined || data.description == undefined || data.price == undefined || data.thumbnail == undefined || data.code == undefined) return console.error("ERROR: El metodo 'addProduct' necesita si o si de los valores: title, description, price, thumbnail, code, stock")
 
-        const producto = this.#products.some(p => p.code == Datos.code);
-        if (!producto) { // de no encontrar el producto se agregara al array
+        const prod = this.#products.some(p => p.code == data.code);
+        if (!prod) { // de no encontrar el producto se agregara al array
 
             this.#id++
-            const prod = new Producto(Datos, this.#id)
+            const prod = new Producto(data, this.#id)
             this.#products.push(prod)
             fs.writeFileSync(this.#path, JSON.stringify({id: this.#id, products: this.#products}, null, "\t"))
 
@@ -71,9 +71,9 @@ class ProductManager {
 
     getProductById = (id) => {
         try {
-            const producto = this.#products.find(p => { return p.id == id });
-            if (producto==undefined) return { message: "Not found" }
-            return { message: "success", product: producto }
+            const prod = this.#products.find(p => { return p.id == id });
+            if (prod==undefined) return { message: "Not found" }
+            return { message: "success", product: prod }
         } catch(err) {
             return { message: "getProductById: error" }
         }
@@ -89,19 +89,19 @@ class ProductManager {
             const i = this.#products.findIndex(e => e.id == res.product.id)
             if (i==-1) return { message: "Not found" }
             
-            const copiaOriginal = {...this.#products[i]}
+            const arrayCopy = {...this.#products[i]}
 
             for (const p in data) {
                 if (p=="id") continue // al intentar modificar el 'id' seguira con el siguiente loop
                 this.#products[i][p] = data[p]
             }
 
-            if (JSON.stringify(this.#products[i]) != JSON.stringify(copiaOriginal)) { // si nota cambios en los json editara la variable "updated"
+            if (JSON.stringify(this.#products[i]) != JSON.stringify(arrayCopy)) { // si nota cambios en los json editara la variable "updated"
                 this.#products[i].updated = Date.now()
                 fs.writeFileSync(this.#path, JSON.stringify({id: this.#id, products: this.#products}, null, "\t"))
             }
 
-            return { message: "updateProduct: done", beforeChanges: copiaOriginal, afterChanges: this.#products[i]}
+            return { message: "updateProduct: done", beforeChanges: arrayCopy, afterChanges: this.#products[i]}
         } catch(err) {
             console.log(err)
             return { message: "updateProduct: error" }
@@ -114,10 +114,10 @@ class ProductManager {
             //if (i==-1) return { message: "Not found" }
 
             //const item = this.#products.splice(i, 1)
-            const borrado = this.#products.filter(e => e.id == id)
+            const deleted = this.#products.filter(e => e.id == id)
             this.#products = this.#products.filter(e => e.id != id)
             fs.writeFileSync(this.#path, JSON.stringify({id: this.#id, products: this.#products}, null, "\t"))
-            return { message: "deleteProduct: done", products: borrado}
+            return { message: "deleteProduct: done", products: deleted}
         } catch(err) {
             console.log(err)
             return { message: "deleteProduct: error" }
