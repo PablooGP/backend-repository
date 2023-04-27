@@ -1,0 +1,18 @@
+{
+  "name": "dd1",
+  "version": "1.0.0",
+  "description": "- Class 'ProductManager' que almacena todos los productos que se le den (Mientras se le den los datos requeridos)\r - constructor ProductManager(path) Recibe una ruta para crear un archivo .json el cual almacenara todos los productos\r     - function ProductManager.addProduct(objeto)\r         - recibe 6 datos los cuales son requeridos para crear el producto, se debe enviar en forma de objeto 'title' 'description' 'price' 'thumbnail' 'code' 'stock'. retorna objeto 'Producto' con los datos que se le dieron.\r         - Retorna un objeto con el siguiente contenido: message (sirve para identificar si todo salio bien o ocurrio un error) id (de todo salir bien te devolvera el id del producto creado)\r     - function ProductManager.getProducts()\r         - retorna la lista completa de todos los productos en forma de Array\r     - function ProductManager.getProductById(id)\r         - recibe un 'id' el cual es unico e irrepetible entre todos los productos que se hayan almacenado.\r         - retorna un objeto con el siguiente contenido: message (para identificar errores) product (producto el cual estas buscando)\r     - method ProductManager.updateProduct(id, datos)\r         - recibe un id, con este id se buscara el producto en el array de productos y se modificara dependiendo lo que se recibio en el objeto 'datos'\r     - function ProductManager.deleteProduct(id)\r         - recibe un 'id', este se usara para quitar todos los productos con el mismo id\r         - retorna un objeto con el siguiente contenido: message (para identificar errores) products (array de productos borrados)",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "nodemon ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}

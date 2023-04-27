@@ -1,7 +1,7 @@
 ### Nombre del alumno: Pablo Lopez
 ### Entrega de Desafio 2
 
-### El script 'main.js' contiene lo siguiente:
+### El script 'classes.js' contiene lo siguiente:
 
 - Class 'ProductManager' que almacena todos los productos que se le den (Mientras se le den los datos requeridos)
 - constructor ProductManager(path) Recibe una ruta para crear un archivo .json el cual almacenara todos los productos
@@ -28,28 +28,39 @@
     - Property .thumbnail
     - Property .code
     - Property .stock
-### El siguiente codigo es para probar la clase ProductManager y Producto siguiendo los pasos del proceso de testing
 
+# Pasos a seguir para levantar el servidor:
 
-```javascript
-const Manager = new ProductManager("./data/data.json")
-
-console.log(Manager.getProducts())
-
-for (let i = 1; i<=10; i++) {
-    const re = Manager.addProduct({
-        title: "Producto Prueba",
-        description: "Este producto fue añadido para probar la clase ProductManager.",
-        price: 100,
-        thumbnail: "https://www.google.com/",
-        code: `abc${i+Date.now()}`,
-    })
-    console.log(re)
-}
-
-console.log("getProductById 9", Manager.getProductById(9))
-console.log("updateProduct 9", Manager.updateProduct(9, {title: "cambios realizados", price: 55555, description: "333", id: 99999}))
-console.log("deleteProduct", Manager.deleteProduct(10))
-
-console.log(Manager.getProducts())
+## Instalar Express.
+```bash
+npm i express
 ```
+## Iniciar el servidor desde la consola
+```bash
+npm run dev
+```
+## Importante de recordar:
+```
+-Hay solo 5 carritos (Cada objeto del carrito cuenta con 'pid' que es el product id y 'x' que es la cantidad del mismo producto)
+-Hay un total de 250 productos (son todos iguales solo cambian los id y el valor 'updated')
+-El producto id: 10 no existe.
+-El servidor esta corriendo en el port numero 8080 como se pidio en el ppt
+```
+
+# Testing del servidor:
+
+## Probando los endpoints de los productos:
+
+[/products](http://localhost:8080/products) (Toma todos los productos)
+
+[/products?limit=25](http://localhost:8080/products?limit=25) (Toma los primeros 25 productos, no olvides que el producto 10 no existe)
+
+[/products/25](http://localhost:8080/products/25) (Toma el producto con el id 25)
+
+## Probando los endpoints de los carritos:
+
+[/carts](http://localhost:8080/carts) (Toma todos los carritos)
+
+[/carts?limit=3](http://localhost:8080/carts?limit=3) (Toma los primeros 3 carritos)
+
+[/carts/2](http://localhost:8080/carts/2) (Toma el carrito con el id 2)

@@ -1,5 +1,4 @@
-const fs = require("fs")
-
+import fs, { existsSync } from "fs"
 
 class Producto {
     constructor (data, id) {
@@ -32,7 +31,8 @@ class ProductManager {
                 this.#id = parse.id
                 this.#products = parse.products
             }
-        } catch {
+        } catch(err) {
+            console.log("ERROR:", err)
             console.log(`ProductManager constructor: Error al leer el archivo: ${this.#path}`)
         }
         
@@ -58,11 +58,14 @@ class ProductManager {
 
     getProducts = () => {
         try { // es la primera vez que uso esto espero q funcione bien
+
+            if (!fs.existsSync(this.#path)) return { message: "success", products: this.#products }
+
             const jsonString = fs.readFileSync(this.#path, "utf-8")
             const array = JSON.parse(jsonString)
 
-            if (array.length == 0) return { message: "Not found" }
-            return { message: "success", products: array }
+            if (array.products.length == 0) return { message: "Not found" }
+            return { message: "success", products: array.products }
         } catch(err) {
             console.log("getProducts:", err)
             return { message: "getProducts: error" }
@@ -124,3 +127,71 @@ class ProductManager {
         }
     }
 }
+
+class CartManager {
+    #carts;
+    #id;
+    #path;
+    constructor(path) {
+        this.#carts = [];
+        this.#id = 0;
+        this.#path = path
+
+        try {
+            //fs.mkdirSync(this.#path)
+            if (fs.existsSync(this.#path) ) {
+                const jsonString = fs.readFileSync(this.#path, "utf-8")
+                const parse = JSON.parse(jsonString)
+                this.#id = parse.id
+                this.#carts = parse.carts
+            }
+        } catch(err) {
+            console.log("ERROR:", err)
+            console.log(`CartManager constructor: Error al leer el archivo: ${this.#path}`)
+        }
+        
+    }
+
+    addCart = () => {
+        try {
+            this.#id++
+            const newCart = {
+                id: this.#id,
+                products: [],
+            }
+            this.#carts.push(newCart)
+            fs.writeFileSync(this.#path, JSON.stringify({id: this.#id, carts: this.#carts}, null, "\t"))
+            return {message: "success", id: this.#id}
+        } catch(err) {
+            return {message: "addCart: error"}
+        }
+    }
+
+    getCarts = () => {
+        try {
+
+            if (!fs.existsSync(this.#path)) return { message: "success", carts: this.#carts }
+
+            const jsonString = fs.readFileSync(this.#path, "utf-8")
+            const array = JSON.parse(jsonString)
+
+            if (array.carts.length == 0) return { message: "Not found" }
+            return { message: "success", carts: array.carts }
+        } catch(err) {
+            console.log("getCarts:", err)
+            return { message: "getCarts: error" }
+        }
+    }
+
+    getCartById = (id) => {
+        try {
+            const cart = this.#carts.find(e => e.id == id)
+            if (!cart) return {message: "Not found"}
+            return {message: "success", cart: cart}
+        } catch {
+            return {message: "getCartById: error"}
+        }
+    }
+}
+
+export default {ProductManager: ProductManager, CartManager: CartManager}
