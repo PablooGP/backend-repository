@@ -1,5 +1,5 @@
 ### Nombre del alumno: Pablo Lopez
-### Entrega de Desafio 2
+### Entrega de Desafio 3
 
 ### El script 'classes.js' contiene lo siguiente:
 
