@@ -1,0 +1,2495 @@
+{
+	"id": 250,
+	"products": [
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959296",
+			"stock": 0,
+			"updated": 1682558959295,
+			"id": 1
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959298",
+			"stock": 0,
+			"updated": 1682558959296,
+			"id": 2
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959300",
+			"stock": 0,
+			"updated": 1682558959297,
+			"id": 3
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959301",
+			"stock": 0,
+			"updated": 1682558959297,
+			"id": 4
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959303",
+			"stock": 0,
+			"updated": 1682558959298,
+			"id": 5
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959304",
+			"stock": 0,
+			"updated": 1682558959298,
+			"id": 6
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959306",
+			"stock": 0,
+			"updated": 1682558959299,
+			"id": 7
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959307",
+			"stock": 0,
+			"updated": 1682558959299,
+			"id": 8
+		},
+		{
+			"title": "cambios realizados",
+			"description": "333",
+			"price": 55555,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959309",
+			"stock": 0,
+			"updated": 1682558959303,
+			"id": 9
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959604",
+			"stock": 0,
+			"updated": 1682558959603,
+			"id": 11
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959606",
+			"stock": 0,
+			"updated": 1682558959604,
+			"id": 12
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959607",
+			"stock": 0,
+			"updated": 1682558959604,
+			"id": 13
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959609",
+			"stock": 0,
+			"updated": 1682558959605,
+			"id": 14
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959610",
+			"stock": 0,
+			"updated": 1682558959605,
+			"id": 15
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959612",
+			"stock": 0,
+			"updated": 1682558959606,
+			"id": 16
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959613",
+			"stock": 0,
+			"updated": 1682558959606,
+			"id": 17
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959615",
+			"stock": 0,
+			"updated": 1682558959607,
+			"id": 18
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959616",
+			"stock": 0,
+			"updated": 1682558959607,
+			"id": 19
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959618",
+			"stock": 0,
+			"updated": 1682558959608,
+			"id": 20
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959895",
+			"stock": 0,
+			"updated": 1682558959894,
+			"id": 21
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959897",
+			"stock": 0,
+			"updated": 1682558959895,
+			"id": 22
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959899",
+			"stock": 0,
+			"updated": 1682558959896,
+			"id": 23
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959900",
+			"stock": 0,
+			"updated": 1682558959896,
+			"id": 24
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959902",
+			"stock": 0,
+			"updated": 1682558959897,
+			"id": 25
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959904",
+			"stock": 0,
+			"updated": 1682558959898,
+			"id": 26
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959905",
+			"stock": 0,
+			"updated": 1682558959898,
+			"id": 27
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959907",
+			"stock": 0,
+			"updated": 1682558959899,
+			"id": 28
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959908",
+			"stock": 0,
+			"updated": 1682558959899,
+			"id": 29
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558959910",
+			"stock": 0,
+			"updated": 1682558959900,
+			"id": 30
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960189",
+			"stock": 0,
+			"updated": 1682558960188,
+			"id": 31
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960192",
+			"stock": 0,
+			"updated": 1682558960190,
+			"id": 32
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960194",
+			"stock": 0,
+			"updated": 1682558960191,
+			"id": 33
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960195",
+			"stock": 0,
+			"updated": 1682558960191,
+			"id": 34
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960197",
+			"stock": 0,
+			"updated": 1682558960192,
+			"id": 35
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960198",
+			"stock": 0,
+			"updated": 1682558960192,
+			"id": 36
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960200",
+			"stock": 0,
+			"updated": 1682558960193,
+			"id": 37
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960202",
+			"stock": 0,
+			"updated": 1682558960194,
+			"id": 38
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960203",
+			"stock": 0,
+			"updated": 1682558960194,
+			"id": 39
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960205",
+			"stock": 0,
+			"updated": 1682558960195,
+			"id": 40
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960470",
+			"stock": 0,
+			"updated": 1682558960469,
+			"id": 41
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960472",
+			"stock": 0,
+			"updated": 1682558960470,
+			"id": 42
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960473",
+			"stock": 0,
+			"updated": 1682558960470,
+			"id": 43
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960475",
+			"stock": 0,
+			"updated": 1682558960471,
+			"id": 44
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960476",
+			"stock": 0,
+			"updated": 1682558960471,
+			"id": 45
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960478",
+			"stock": 0,
+			"updated": 1682558960472,
+			"id": 46
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960480",
+			"stock": 0,
+			"updated": 1682558960473,
+			"id": 47
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960481",
+			"stock": 0,
+			"updated": 1682558960473,
+			"id": 48
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960483",
+			"stock": 0,
+			"updated": 1682558960474,
+			"id": 49
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960485",
+			"stock": 0,
+			"updated": 1682558960475,
+			"id": 50
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960749",
+			"stock": 0,
+			"updated": 1682558960748,
+			"id": 51
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960751",
+			"stock": 0,
+			"updated": 1682558960749,
+			"id": 52
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960753",
+			"stock": 0,
+			"updated": 1682558960750,
+			"id": 53
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960755",
+			"stock": 0,
+			"updated": 1682558960751,
+			"id": 54
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960756",
+			"stock": 0,
+			"updated": 1682558960751,
+			"id": 55
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960758",
+			"stock": 0,
+			"updated": 1682558960752,
+			"id": 56
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960759",
+			"stock": 0,
+			"updated": 1682558960752,
+			"id": 57
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960761",
+			"stock": 0,
+			"updated": 1682558960753,
+			"id": 58
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960762",
+			"stock": 0,
+			"updated": 1682558960753,
+			"id": 59
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558960764",
+			"stock": 0,
+			"updated": 1682558960754,
+			"id": 60
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961033",
+			"stock": 0,
+			"updated": 1682558961032,
+			"id": 61
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961036",
+			"stock": 0,
+			"updated": 1682558961034,
+			"id": 62
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961037",
+			"stock": 0,
+			"updated": 1682558961034,
+			"id": 63
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961039",
+			"stock": 0,
+			"updated": 1682558961035,
+			"id": 64
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961040",
+			"stock": 0,
+			"updated": 1682558961035,
+			"id": 65
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961042",
+			"stock": 0,
+			"updated": 1682558961036,
+			"id": 66
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961044",
+			"stock": 0,
+			"updated": 1682558961037,
+			"id": 67
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961045",
+			"stock": 0,
+			"updated": 1682558961037,
+			"id": 68
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961047",
+			"stock": 0,
+			"updated": 1682558961038,
+			"id": 69
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961049",
+			"stock": 0,
+			"updated": 1682558961039,
+			"id": 70
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961326",
+			"stock": 0,
+			"updated": 1682558961325,
+			"id": 71
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961328",
+			"stock": 0,
+			"updated": 1682558961326,
+			"id": 72
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961330",
+			"stock": 0,
+			"updated": 1682558961327,
+			"id": 73
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961331",
+			"stock": 0,
+			"updated": 1682558961327,
+			"id": 74
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961333",
+			"stock": 0,
+			"updated": 1682558961328,
+			"id": 75
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961334",
+			"stock": 0,
+			"updated": 1682558961328,
+			"id": 76
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961336",
+			"stock": 0,
+			"updated": 1682558961329,
+			"id": 77
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961338",
+			"stock": 0,
+			"updated": 1682558961330,
+			"id": 78
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961339",
+			"stock": 0,
+			"updated": 1682558961330,
+			"id": 79
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961341",
+			"stock": 0,
+			"updated": 1682558961331,
+			"id": 80
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961644",
+			"stock": 0,
+			"updated": 1682558961643,
+			"id": 81
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961646",
+			"stock": 0,
+			"updated": 1682558961644,
+			"id": 82
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961648",
+			"stock": 0,
+			"updated": 1682558961645,
+			"id": 83
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961649",
+			"stock": 0,
+			"updated": 1682558961645,
+			"id": 84
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961651",
+			"stock": 0,
+			"updated": 1682558961646,
+			"id": 85
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961653",
+			"stock": 0,
+			"updated": 1682558961647,
+			"id": 86
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961654",
+			"stock": 0,
+			"updated": 1682558961647,
+			"id": 87
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961656",
+			"stock": 0,
+			"updated": 1682558961648,
+			"id": 88
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961658",
+			"stock": 0,
+			"updated": 1682558961649,
+			"id": 89
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961659",
+			"stock": 0,
+			"updated": 1682558961649,
+			"id": 90
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961924",
+			"stock": 0,
+			"updated": 1682558961923,
+			"id": 91
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961926",
+			"stock": 0,
+			"updated": 1682558961924,
+			"id": 92
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961928",
+			"stock": 0,
+			"updated": 1682558961925,
+			"id": 93
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961930",
+			"stock": 0,
+			"updated": 1682558961926,
+			"id": 94
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961931",
+			"stock": 0,
+			"updated": 1682558961926,
+			"id": 95
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961933",
+			"stock": 0,
+			"updated": 1682558961927,
+			"id": 96
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961934",
+			"stock": 0,
+			"updated": 1682558961927,
+			"id": 97
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961936",
+			"stock": 0,
+			"updated": 1682558961928,
+			"id": 98
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961938",
+			"stock": 0,
+			"updated": 1682558961929,
+			"id": 99
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558961939",
+			"stock": 0,
+			"updated": 1682558961929,
+			"id": 100
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962201",
+			"stock": 0,
+			"updated": 1682558962200,
+			"id": 101
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962203",
+			"stock": 0,
+			"updated": 1682558962201,
+			"id": 102
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962205",
+			"stock": 0,
+			"updated": 1682558962202,
+			"id": 103
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962207",
+			"stock": 0,
+			"updated": 1682558962203,
+			"id": 104
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962208",
+			"stock": 0,
+			"updated": 1682558962203,
+			"id": 105
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962210",
+			"stock": 0,
+			"updated": 1682558962204,
+			"id": 106
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962212",
+			"stock": 0,
+			"updated": 1682558962205,
+			"id": 107
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962213",
+			"stock": 0,
+			"updated": 1682558962205,
+			"id": 108
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962215",
+			"stock": 0,
+			"updated": 1682558962206,
+			"id": 109
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962217",
+			"stock": 0,
+			"updated": 1682558962207,
+			"id": 110
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962462",
+			"stock": 0,
+			"updated": 1682558962461,
+			"id": 111
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962464",
+			"stock": 0,
+			"updated": 1682558962462,
+			"id": 112
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962466",
+			"stock": 0,
+			"updated": 1682558962463,
+			"id": 113
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962468",
+			"stock": 0,
+			"updated": 1682558962464,
+			"id": 114
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962470",
+			"stock": 0,
+			"updated": 1682558962465,
+			"id": 115
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962472",
+			"stock": 0,
+			"updated": 1682558962466,
+			"id": 116
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962473",
+			"stock": 0,
+			"updated": 1682558962466,
+			"id": 117
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962475",
+			"stock": 0,
+			"updated": 1682558962467,
+			"id": 118
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962477",
+			"stock": 0,
+			"updated": 1682558962468,
+			"id": 119
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962479",
+			"stock": 0,
+			"updated": 1682558962469,
+			"id": 120
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962741",
+			"stock": 0,
+			"updated": 1682558962740,
+			"id": 121
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962743",
+			"stock": 0,
+			"updated": 1682558962741,
+			"id": 122
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962745",
+			"stock": 0,
+			"updated": 1682558962742,
+			"id": 123
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962747",
+			"stock": 0,
+			"updated": 1682558962743,
+			"id": 124
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962748",
+			"stock": 0,
+			"updated": 1682558962743,
+			"id": 125
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962750",
+			"stock": 0,
+			"updated": 1682558962744,
+			"id": 126
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962752",
+			"stock": 0,
+			"updated": 1682558962745,
+			"id": 127
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962753",
+			"stock": 0,
+			"updated": 1682558962745,
+			"id": 128
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962756",
+			"stock": 0,
+			"updated": 1682558962747,
+			"id": 129
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558962758",
+			"stock": 0,
+			"updated": 1682558962748,
+			"id": 130
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963014",
+			"stock": 0,
+			"updated": 1682558963013,
+			"id": 131
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963016",
+			"stock": 0,
+			"updated": 1682558963014,
+			"id": 132
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963018",
+			"stock": 0,
+			"updated": 1682558963015,
+			"id": 133
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963020",
+			"stock": 0,
+			"updated": 1682558963016,
+			"id": 134
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963022",
+			"stock": 0,
+			"updated": 1682558963017,
+			"id": 135
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963023",
+			"stock": 0,
+			"updated": 1682558963017,
+			"id": 136
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963025",
+			"stock": 0,
+			"updated": 1682558963018,
+			"id": 137
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963027",
+			"stock": 0,
+			"updated": 1682558963019,
+			"id": 138
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963029",
+			"stock": 0,
+			"updated": 1682558963020,
+			"id": 139
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963031",
+			"stock": 0,
+			"updated": 1682558963021,
+			"id": 140
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963292",
+			"stock": 0,
+			"updated": 1682558963291,
+			"id": 141
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963295",
+			"stock": 0,
+			"updated": 1682558963293,
+			"id": 142
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963296",
+			"stock": 0,
+			"updated": 1682558963293,
+			"id": 143
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963298",
+			"stock": 0,
+			"updated": 1682558963294,
+			"id": 144
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963300",
+			"stock": 0,
+			"updated": 1682558963295,
+			"id": 145
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963301",
+			"stock": 0,
+			"updated": 1682558963295,
+			"id": 146
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963304",
+			"stock": 0,
+			"updated": 1682558963297,
+			"id": 147
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963305",
+			"stock": 0,
+			"updated": 1682558963297,
+			"id": 148
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963307",
+			"stock": 0,
+			"updated": 1682558963298,
+			"id": 149
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963309",
+			"stock": 0,
+			"updated": 1682558963299,
+			"id": 150
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963577",
+			"stock": 0,
+			"updated": 1682558963576,
+			"id": 151
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963579",
+			"stock": 0,
+			"updated": 1682558963577,
+			"id": 152
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963582",
+			"stock": 0,
+			"updated": 1682558963579,
+			"id": 153
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963583",
+			"stock": 0,
+			"updated": 1682558963579,
+			"id": 154
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963585",
+			"stock": 0,
+			"updated": 1682558963580,
+			"id": 155
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963587",
+			"stock": 0,
+			"updated": 1682558963581,
+			"id": 156
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963589",
+			"stock": 0,
+			"updated": 1682558963582,
+			"id": 157
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963591",
+			"stock": 0,
+			"updated": 1682558963583,
+			"id": 158
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963593",
+			"stock": 0,
+			"updated": 1682558963584,
+			"id": 159
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963595",
+			"stock": 0,
+			"updated": 1682558963585,
+			"id": 160
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963853",
+			"stock": 0,
+			"updated": 1682558963852,
+			"id": 161
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963855",
+			"stock": 0,
+			"updated": 1682558963853,
+			"id": 162
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963856",
+			"stock": 0,
+			"updated": 1682558963853,
+			"id": 163
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963858",
+			"stock": 0,
+			"updated": 1682558963854,
+			"id": 164
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963860",
+			"stock": 0,
+			"updated": 1682558963855,
+			"id": 165
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963862",
+			"stock": 0,
+			"updated": 1682558963856,
+			"id": 166
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963864",
+			"stock": 0,
+			"updated": 1682558963857,
+			"id": 167
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963866",
+			"stock": 0,
+			"updated": 1682558963858,
+			"id": 168
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963868",
+			"stock": 0,
+			"updated": 1682558963859,
+			"id": 169
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558963870",
+			"stock": 0,
+			"updated": 1682558963860,
+			"id": 170
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964136",
+			"stock": 0,
+			"updated": 1682558964135,
+			"id": 171
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964138",
+			"stock": 0,
+			"updated": 1682558964136,
+			"id": 172
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964140",
+			"stock": 0,
+			"updated": 1682558964137,
+			"id": 173
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964142",
+			"stock": 0,
+			"updated": 1682558964138,
+			"id": 174
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964143",
+			"stock": 0,
+			"updated": 1682558964138,
+			"id": 175
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964146",
+			"stock": 0,
+			"updated": 1682558964140,
+			"id": 176
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964148",
+			"stock": 0,
+			"updated": 1682558964141,
+			"id": 177
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964150",
+			"stock": 0,
+			"updated": 1682558964142,
+			"id": 178
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964152",
+			"stock": 0,
+			"updated": 1682558964143,
+			"id": 179
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964154",
+			"stock": 0,
+			"updated": 1682558964144,
+			"id": 180
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964442",
+			"stock": 0,
+			"updated": 1682558964441,
+			"id": 181
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964444",
+			"stock": 0,
+			"updated": 1682558964442,
+			"id": 182
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964446",
+			"stock": 0,
+			"updated": 1682558964443,
+			"id": 183
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964448",
+			"stock": 0,
+			"updated": 1682558964444,
+			"id": 184
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964450",
+			"stock": 0,
+			"updated": 1682558964445,
+			"id": 185
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964452",
+			"stock": 0,
+			"updated": 1682558964446,
+			"id": 186
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964454",
+			"stock": 0,
+			"updated": 1682558964447,
+			"id": 187
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964456",
+			"stock": 0,
+			"updated": 1682558964448,
+			"id": 188
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964457",
+			"stock": 0,
+			"updated": 1682558964448,
+			"id": 189
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964459",
+			"stock": 0,
+			"updated": 1682558964449,
+			"id": 190
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964724",
+			"stock": 0,
+			"updated": 1682558964723,
+			"id": 191
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964726",
+			"stock": 0,
+			"updated": 1682558964724,
+			"id": 192
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964728",
+			"stock": 0,
+			"updated": 1682558964725,
+			"id": 193
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964730",
+			"stock": 0,
+			"updated": 1682558964727,
+			"id": 194
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964732",
+			"stock": 0,
+			"updated": 1682558964727,
+			"id": 195
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964735",
+			"stock": 0,
+			"updated": 1682558964729,
+			"id": 196
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964737",
+			"stock": 0,
+			"updated": 1682558964730,
+			"id": 197
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964739",
+			"stock": 0,
+			"updated": 1682558964731,
+			"id": 198
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964741",
+			"stock": 0,
+			"updated": 1682558964732,
+			"id": 199
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558964744",
+			"stock": 0,
+			"updated": 1682558964734,
+			"id": 200
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965021",
+			"stock": 0,
+			"updated": 1682558965020,
+			"id": 201
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965023",
+			"stock": 0,
+			"updated": 1682558965021,
+			"id": 202
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965025",
+			"stock": 0,
+			"updated": 1682558965022,
+			"id": 203
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965027",
+			"stock": 0,
+			"updated": 1682558965023,
+			"id": 204
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965029",
+			"stock": 0,
+			"updated": 1682558965024,
+			"id": 205
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965031",
+			"stock": 0,
+			"updated": 1682558965025,
+			"id": 206
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965033",
+			"stock": 0,
+			"updated": 1682558965026,
+			"id": 207
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965035",
+			"stock": 0,
+			"updated": 1682558965027,
+			"id": 208
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965037",
+			"stock": 0,
+			"updated": 1682558965028,
+			"id": 209
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965039",
+			"stock": 0,
+			"updated": 1682558965029,
+			"id": 210
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965310",
+			"stock": 0,
+			"updated": 1682558965309,
+			"id": 211
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965312",
+			"stock": 0,
+			"updated": 1682558965310,
+			"id": 212
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965314",
+			"stock": 0,
+			"updated": 1682558965311,
+			"id": 213
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965316",
+			"stock": 0,
+			"updated": 1682558965312,
+			"id": 214
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965318",
+			"stock": 0,
+			"updated": 1682558965313,
+			"id": 215
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965320",
+			"stock": 0,
+			"updated": 1682558965314,
+			"id": 216
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965322",
+			"stock": 0,
+			"updated": 1682558965315,
+			"id": 217
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965324",
+			"stock": 0,
+			"updated": 1682558965316,
+			"id": 218
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965326",
+			"stock": 0,
+			"updated": 1682558965317,
+			"id": 219
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965328",
+			"stock": 0,
+			"updated": 1682558965318,
+			"id": 220
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965613",
+			"stock": 0,
+			"updated": 1682558965612,
+			"id": 221
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965616",
+			"stock": 0,
+			"updated": 1682558965614,
+			"id": 222
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965618",
+			"stock": 0,
+			"updated": 1682558965615,
+			"id": 223
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965620",
+			"stock": 0,
+			"updated": 1682558965616,
+			"id": 224
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965621",
+			"stock": 0,
+			"updated": 1682558965616,
+			"id": 225
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965624",
+			"stock": 0,
+			"updated": 1682558965618,
+			"id": 226
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965626",
+			"stock": 0,
+			"updated": 1682558965619,
+			"id": 227
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965628",
+			"stock": 0,
+			"updated": 1682558965620,
+			"id": 228
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965630",
+			"stock": 0,
+			"updated": 1682558965621,
+			"id": 229
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965632",
+			"stock": 0,
+			"updated": 1682558965622,
+			"id": 230
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965908",
+			"stock": 0,
+			"updated": 1682558965908,
+			"id": 231
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965911",
+			"stock": 0,
+			"updated": 1682558965909,
+			"id": 232
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965913",
+			"stock": 0,
+			"updated": 1682558965910,
+			"id": 233
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965915",
+			"stock": 0,
+			"updated": 1682558965911,
+			"id": 234
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965916",
+			"stock": 0,
+			"updated": 1682558965911,
+			"id": 235
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965919",
+			"stock": 0,
+			"updated": 1682558965913,
+			"id": 236
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965921",
+			"stock": 0,
+			"updated": 1682558965914,
+			"id": 237
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965923",
+			"stock": 0,
+			"updated": 1682558965915,
+			"id": 238
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965925",
+			"stock": 0,
+			"updated": 1682558965916,
+			"id": 239
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558965927",
+			"stock": 0,
+			"updated": 1682558965917,
+			"id": 240
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558966182",
+			"stock": 0,
+			"updated": 1682558966181,
+			"id": 241
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558966185",
+			"stock": 0,
+			"updated": 1682558966183,
+			"id": 242
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558966186",
+			"stock": 0,
+			"updated": 1682558966183,
+			"id": 243
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558966188",
+			"stock": 0,
+			"updated": 1682558966184,
+			"id": 244
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558966190",
+			"stock": 0,
+			"updated": 1682558966185,
+			"id": 245
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558966192",
+			"stock": 0,
+			"updated": 1682558966186,
+			"id": 246
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558966195",
+			"stock": 0,
+			"updated": 1682558966188,
+			"id": 247
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558966197",
+			"stock": 0,
+			"updated": 1682558966189,
+			"id": 248
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558966199",
+			"stock": 0,
+			"updated": 1682558966190,
+			"id": 249
+		},
+		{
+			"title": "Producto Prueba",
+			"description": "Este producto fue añadido para probar la clase ProductManager.",
+			"price": 100,
+			"thumbnail": "https://www.google.com/",
+			"code": "abc1682558966201",
+			"stock": 0,
+			"updated": 1682558966191,
+			"id": 250
+		}
+	]
+}
