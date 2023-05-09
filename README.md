@@ -1,5 +1,5 @@
 ### Nombre del alumno: Pablo Lopez
-### Entrega de Desafio 3
+### Primera Entrega de Programacion Backend
 
 ### El script 'classes.js' contiene lo siguiente:
 
@@ -47,20 +47,81 @@ npm run dev
 -El servidor esta corriendo en el port numero 8080 como se pidio en el ppt
 ```
 
-# Testing del servidor:
+# Testing del servidor via postman:
 
 ## Probando los endpoints de los productos:
 
-[/products](http://localhost:8080/products) (Toma todos los productos)
+```
+Retorna todos los productos que existen
 
-[/products?limit=25](http://localhost:8080/products?limit=25) (Toma los primeros 25 productos, no olvides que el producto 10 no existe)
+[GET] localhost:8080/api/products
+Retorna un array con todos los productos.
+```
+```
+Se usa para buscar muchos productos con limite
 
-[/products/25](http://localhost:8080/products/25) (Toma el producto con el id 25)
+[GET] localhost:8080/api/products?limit=5
+Retorna un array con un maximo de productos (En este caso 5)
+```
+```
+Se usa para buscar un producto especifico
 
+[GET] localhost:8080/api/products/3
+Retorna el producto numero 3
+```
+```
+Se usa para agregar un producto nuevo
+
+[POST] localhost:8080/api/products
+La informacion se envia por query params
+Retorna el ID del producto agregado.
+```
+```
+Se usa para actualizar un producto.
+
+[PATCH] localhost:8080/api/products/:pid
+Recibe id de un producto y lo edita via query params
+Retorna el producto con todos sus cambios
+```
+```
+Se usa para borrar un producto de la lista
+
+[DELETE] localhost:8080/api/products/:pid
+Recibe id de un producto
+Retorna el producto que fue borrado
+```
 ## Probando los endpoints de los carritos:
 
-[/carts](http://localhost:8080/carts) (Toma todos los carritos)
+```
+Se usa para tomar todos los carritos existentes
 
-[/carts?limit=3](http://localhost:8080/carts?limit=3) (Toma los primeros 3 carritos)
+[GET] localhost:8080/api/carts
+Retorna todos los carritos
+```
+```
+Se usa para ver un carrito especifico
 
-[/carts/2](http://localhost:8080/carts/2) (Toma el carrito con el id 2)
+[GET] localhost:8080/api/carts/:cid
+Recibe cartId como parametro
+Retorna solo un carrito.
+```
+```
+Crea un nuevo carrito vacio
+
+[POST] localhost:8080/api/carts
+Retorna el id del nuevo carrito creado
+```
+```
+Agrega stock al carrito y quita stock del producto
+
+[PATCH] localhost:8080/api/carts/:cid/product/:pid/:units
+Recibe cid, pid, units como parametros
+Retorna los productos del carrito
+```
+```
+Quita el stock del carrito y se lo agrega el producto
+
+[DELETE] localhost:8080/api/carts/:cid/product/:pid/:units
+Recibe cid, pid, units como parametros
+Retorna los productos del carrito
+```
