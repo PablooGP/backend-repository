@@ -1,0 +1,35 @@
+<link rel="stylesheet" href={{style}}>
+{{#each scripts}}
+    <script src={{this}}></script>
+{{/each}}
+
+<div class="container usuario">
+    <div>
+        
+    </div>
+    <div>
+        <h3>BIENVENIDO</h3><img src={{photo}} alt="Avatar" class="avatar"><h2>{{name}}  
+        {{#if last_name}}
+        {{last_name}}
+        {{else}}
+        Apellido desconocido</h2>
+        {{/if}}
+    </div>
+</div>
+<div class="container">
+    <div class="d-flex ">
+    {{#each produtcs}}
+
+    <div class="card">
+        <div class="">
+            <img src={{this.photo}} class="card-img-top">
+        </div>
+        <div class="card-body">
+            <h5>{{this.title}}</h5>
+            <p class="card-text">{{price}}</p>
+            <a href="#" class="btn agregar-carrito"> Agregar al carrito </a>
+        </div>
+    </div>
+    {{/each}}
+</div>
+</div>

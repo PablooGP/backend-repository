@@ -1,0 +1,920 @@
+/* (script _variables.scss) se que esto no deberia de hacerlo pero es solo para probar el funcionamiento de las variables */
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.topbar {
+  background-color: rgb(253, 97, 0);
+  width: 100%;
+  height: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.internal-topbar {
+  background-color: rgb(253, 97, 0);
+  position: relative;
+  left: 15%;
+  width: 70%;
+  height: 100%;
+  z-index: 1;
+  opacity: 10%;
+}
+
+.barrabusqueda {
+  margin: auto;
+  width: 50%;
+  max-width: 575px;
+  height: 30px;
+  fill-opacity: 100%;
+  z-index: 25;
+  background-color: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 20px;
+  border-radius: 25px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  position: relative;
+  top: calc(100% + 10px);
+  height: 100%;
+  width: 150%;
+  padding-left: 0px;
+  background-color: transparent;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 8px 10px;
+  font-family: "Sofia Sans", sans-serif;
+  width: 20%;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav li:hover {
+  background-color: #000000;
+}
+
+.nav li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Sofia Sans", sans-serif;
+}
+
+.website-logov2 {
+  width: 20%;
+  height: 70px;
+  background-image: url("../assets/img/logositioweb.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 2.5%;
+  top: 15px;
+  z-index: 35;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.input-barra-busqueda {
+  position: absolute;
+  width: 95%;
+  height: 100%;
+  left: 2.5%;
+  top: calc(50% - 15px);
+  font-family: "Sofia Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+
+.boton-busqueda {
+  box-sizing: border-box;
+  position: absolute;
+  width: 34px;
+  height: 28px;
+  right: 1px;
+  top: 1px;
+  background: #C4C4C4;
+  border-left: 1px solid rgba(0, 0, 0, 0.075);
+  border-radius: 0px 15px 15px 0px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+.icono-busqueda {
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  left: 10%;
+  right: 12.5%;
+  top: 12.5%;
+  bottom: 12.5%;
+  background: rgba(0, 0, 0, 0.75);
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 5;
+  background: url("https://api.iconify.design/material-symbols/search.svg") no-repeat center center/contain;
+  /* Icono sacado de iconify */
+}
+
+.aviso-importante {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  top: 10px;
+  display: grid;
+  font-family: "Sofia Sans", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  text-align: center;
+  border: 0.3px solid #000000;
+  background: #000000;
+  color: #FFFFFF;
+  border: 0.3px solid #000000;
+}
+
+.footer-frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: calc(100% - 30px);
+  background-color: rgb(253, 97, 0);
+  z-index: 50;
+}
+
+footer {
+  position: fixed;
+  height: 30px;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  padding: 0px;
+  background-color: transparent;
+  /*box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);*/
+  background-color: transparent;
+  z-index: 50;
+}
+
+.footer-lista {
+  position: absolute;
+  height: 100%;
+  background-color: transparent;
+  text-align: center;
+}
+
+.footer-lista li {
+  display: inline;
+  padding: 6px 14px;
+  font-family: "Sofia Sans", sans-serif;
+}
+
+.footer-lista li:hover {
+  background-color: #000000;
+}
+
+.footer-lista li a {
+  font-family: "Sofia Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+/* COMPONENTES HTML - FLEXBOX */
+.componentes-flexbox {
+  position: relative;
+  top: 80px;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+  background-color: transparent;
+  z-index: 5;
+  margin: auto;
+  max-width: 1450px;
+}
+
+.componente1 {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  outline: #000000;
+}
+
+.componente-frame-interna {
+  position: relative;
+  height: 90%;
+  width: 90%;
+  left: 5%;
+  top: 5%;
+  background: #f0eeee;
+  box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+/* Propiedades de imagenes */
+.adata-mouse-image {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 75%;
+  background: rgba(0, 0, 0, 0);
+  background-size: 100% 100%;
+  object-fit: contain;
+  position: absolute;
+  background: url("../assets/img/mouse-adata.png") no-repeat center center/contain;
+}
+
+.glorious-mouse-image {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 75%;
+  background: rgba(0, 0, 0, 0);
+  background-size: 100% 100%;
+  object-fit: contain;
+  position: absolute;
+  background: url("../assets/img/mouse-glorious.png") no-repeat center center/contain;
+}
+
+.hdd-1tb-image {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 75%;
+  background: rgba(0, 0, 0, 0);
+  background-size: 100% 100%;
+  object-fit: contain;
+  position: absolute;
+  background: url("../assets/img/hdd-1tb.png") no-repeat center center/contain;
+}
+
+.rog-thor-850w-image {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 75%;
+  background: rgba(0, 0, 0, 0);
+  background-size: 100% 100%;
+  object-fit: contain;
+  position: absolute;
+  background: url("../assets/img/rog-thor-850w.png") no-repeat center center/contain;
+}
+
+.auriculares-msi-gh50 {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 75%;
+  background: rgba(0, 0, 0, 0);
+  background-size: 100% 100%;
+  object-fit: contain;
+  position: absolute;
+  background: url("../assets/img/auriculares-msi-gh50.png") no-repeat center center/contain;
+}
+
+.coolerfan-coolermaster-mf120s3 {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 75%;
+  background: rgba(0, 0, 0, 0);
+  background-size: 100% 100%;
+  object-fit: contain;
+  position: absolute;
+  background: url("../assets/img/coolerfan-coolermaster-mf120s3.png") no-repeat center center/contain;
+}
+
+.core-i3-10th {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 75%;
+  background: rgba(0, 0, 0, 0);
+  background-size: 100% 100%;
+  object-fit: contain;
+  position: absolute;
+  background: url("../assets/img/core-i3-10th.png") no-repeat center center/contain;
+}
+
+.elgato-streamdeck-15b {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 75%;
+  background: rgba(0, 0, 0, 0);
+  background-size: 100% 100%;
+  object-fit: contain;
+  position: absolute;
+  background: url("../assets/img/elgato-streamdeck-15botones.png") no-repeat center center/contain;
+}
+
+.memoriaram-geil-2x8 {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 75%;
+  background: rgba(0, 0, 0, 0);
+  background-size: 100% 100%;
+  object-fit: contain;
+  position: absolute;
+  background: url("../assets/img/memoriaram-geil-2x8.png") no-repeat center center/contain;
+}
+
+.motherboard-asrock-z390 {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 75%;
+  background: rgba(0, 0, 0, 0);
+  background-size: 100% 100%;
+  object-fit: contain;
+  position: absolute;
+  background: url("../assets/img/motherboard-asrock-z390.png") no-repeat center center/contain;
+}
+
+.rtx3080-gamingxtrio {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 75%;
+  background: rgba(0, 0, 0, 0);
+  background-size: 100% 100%;
+  object-fit: contain;
+  position: absolute;
+  background: url("../assets/img/rtx3080-gamingxtrio.png") no-repeat center center/contain;
+}
+
+.microfono-hyperx-solocast {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 75%;
+  background: rgba(0, 0, 0, 0);
+  background-size: 100% 100%;
+  object-fit: contain;
+  position: absolute;
+  background: url("../assets/img/hyperx-solocast.png") no-repeat center center/contain;
+}
+
+.precio-propiedades {
+  position: relative;
+  width: 100%;
+  height: 7.5%;
+  left: 6px;
+  top: 5%;
+  fill-opacity: 0%;
+  font-family: "Sofia Sans", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 18px;
+  text-decoration-line: none;
+  text-align: center;
+  z-index: 5;
+  /* or 100% */
+  color: #000000;
+}
+
+.formas-pago-h {
+  text-align: center;
+}
+
+.tarjetas-frame {
+  position: relative;
+  top: 25px;
+  margin: auto;
+  width: 80%;
+  height: 230px;
+  z-index: 25;
+  background-color: rgb(253, 97, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  fill-opacity: 0%;
+  box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.rapipago-etc-frame {
+  position: relative;
+  top: 50px;
+  margin: auto;
+  width: 80%;
+  height: 175px;
+  z-index: 25;
+  background-color: rgb(253, 97, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  fill-opacity: 0%;
+  box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.transferencia-frame {
+  position: relative;
+  top: 75px;
+  margin: auto;
+  width: 80%;
+  height: 150px;
+  z-index: 25;
+  background-color: rgb(253, 97, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  fill-opacity: 0%;
+  box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.efectivo-frame {
+  position: relative;
+  top: 100px;
+  margin: auto;
+  width: 80%;
+  height: 175px;
+  z-index: 25;
+  background-color: rgb(253, 97, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  fill-opacity: 0%;
+  box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.sub-titulo {
+  position: relative;
+  top: 15px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 900;
+  font-family: "Sofia Sans", sans-serif;
+  color: #FFFFFF;
+  font-style: normal;
+}
+
+.lo-demas {
+  position: relative;
+  width: 95%;
+  top: 50px;
+  font-family: "Sofia Sans", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7137254902);
+  text-decoration: none;
+}
+
+.contacto-lista {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  padding-left: 0px;
+  background-color: transparent;
+  text-align: center;
+  font-family: "Sofia Sans", sans-serif;
+}
+
+.contacto-lista li {
+  top: 250%;
+  position: relative;
+  display: inline-table;
+  padding: 5px 5px;
+  font-family: "Sofia Sans", sans-serif;
+}
+
+.frame-contacto-wa {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  z-index: 25;
+  background-color: rgb(253, 97, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  fill-opacity: 0%;
+  top: 75px;
+  margin: auto;
+  box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.frame-contacto-ig {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  z-index: 25;
+  background-color: rgb(253, 97, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  fill-opacity: 0%;
+  top: 110px;
+  margin: auto;
+  box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.frame-contacto-fb {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  z-index: 25;
+  background-color: rgb(253, 97, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  fill-opacity: 0%;
+  top: 150px;
+  margin: auto;
+  box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.whatsapp-icono {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  left: 25px;
+  top: 10px;
+  color: #FFFFFF;
+  background: url("https://api.iconify.design/ic/outline-whatsapp.svg") no-repeat center center/contain;
+}
+
+.configuracion-texto {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: calc(100% - 35px);
+  font-family: "Sofia Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.facebook-icono {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  left: 25px;
+  top: 10px;
+  color: #FFFFFF;
+  background: url("https://api.iconify.design/ic/baseline-facebook.svg") no-repeat center center/contain;
+}
+
+.instagram-icono {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  left: 25px;
+  top: 10px;
+  color: #FFFFFF;
+  background: url("https://api.iconify.design/mdi/instagram.svg") no-repeat center center/contain;
+}
+
+.sub-titulo2 {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 1000;
+  font-family: "Sofia Sans", sans-serif;
+  color: rgb(253, 97, 0);
+  font-style: normal;
+}
+
+.unboxings-lista {
+  position: relative;
+  top: 20px;
+  width: 100%;
+  height: fit-content;
+  padding-left: 0px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.banner-fondo {
+  position: relative;
+  background-color: rgb(253, 97, 0);
+  top: 20px;
+  height: 567px;
+  width: 100%;
+}
+
+/*.banner-imagen {
+    margin: auto;
+    width: 1215px;
+    height: 100%;
+    z-index: 25;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    fill-opacity: 0%;
+    position: relative;
+    background-image: url('../assets/img/banner.png');
+}*/
+.banner-imagen {
+  margin: auto;
+  width: 100%;
+  height: 1500px;
+  top: 20px;
+  background-color: transparent;
+  display: block;
+  fill-opacity: 0%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  background-image: url("../assets/img/banner.png");
+}
+
+.yt-video {
+  width: 750px;
+  height: 400px;
+}
+
+@media (max-width: 576px) {
+  .topbar {
+    background-color: rgb(255, 96, 0);
+    width: 100%;
+    height: 205px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .barrabusqueda {
+    margin: auto;
+    width: 80%;
+    max-width: 575px;
+    height: 30px;
+    fill-opacity: 100%;
+    z-index: 25;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 30px;
+    border-radius: 25px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+  }
+  .website-logov2 {
+    margin: auto;
+    width: 315px;
+    height: 95px;
+    background-image: url("../assets/img/logositioweb.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 0%;
+    top: 10px;
+    z-index: 35;
+  }
+  .nav {
+    position: relative;
+    bottom: calc(100% + 30px);
+    height: 100%;
+    width: 150%;
+    padding-left: 0px;
+    background-color: transparent;
+    text-align: center;
+  }
+  .aviso-importante {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    top: 10px;
+    position: relative;
+    display: grid;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    border: 0.3px solid #000000;
+    background: #000000;
+    color: #FFFFFF;
+    border: 0.3px solid #000000;
+  }
+  .banner-fondo {
+    position: relative;
+    background-color: #653de7;
+    background-color: transparent;
+    top: 20px;
+    height: 2500%;
+    width: 100%;
+  }
+  .banner-imagen {
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    top: 20px;
+    background-color: transparent;
+    display: block;
+    fill-opacity: 0%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-image: url("../assets/img/banner.png");
+  }
+  .tarjetas-frame {
+    position: relative;
+    top: 0px;
+    margin: auto;
+    width: 90%;
+    height: 350px;
+    z-index: 25;
+    background-color: rgb(255, 96, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    fill-opacity: 0%;
+    box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  .rapipago-etc-frame {
+    position: relative;
+    top: 35px;
+    margin: auto;
+    width: 90%;
+    height: 240px;
+    z-index: 25;
+    background-color: rgb(255, 96, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    fill-opacity: 0%;
+    box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  .transferencia-frame {
+    position: relative;
+    top: 65px;
+    margin: auto;
+    width: 90%;
+    height: 255px;
+    z-index: 25;
+    background-color: rgb(255, 96, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    fill-opacity: 0%;
+    box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  .efectivo-frame {
+    position: relative;
+    top: 100px;
+    margin: auto;
+    width: 90%;
+    height: 200px;
+    z-index: 25;
+    background-color: rgb(255, 96, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    fill-opacity: 0%;
+    box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  .unboxings-lista {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: fit-content;
+    padding-left: 0px;
+    background-color: transparent;
+    text-align: center;
+  }
+  .yt-video {
+    width: 97%;
+    height: 320px;
+  }
+  .componentes-flexbox {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 1420px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    background-color: transparent;
+    z-index: 5;
+    margin: auto;
+    max-width: 1450px;
+  }
+  .componente1 {
+    width: 230px;
+    height: 230px;
+    background-color: transparent;
+    outline: #000000;
+  }
+}
+@media (max-width: 390px) {
+  .componentes-flexbox {
+    position: relative;
+    top: 25px;
+    width: 360px;
+    height: 1060px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    align-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+    z-index: 5;
+    margin: auto;
+    max-width: 900px;
+  }
+  .componente1 {
+    width: 170px;
+    height: 170px;
+    background-color: transparent;
+    outline: #000000;
+  }
+  .divisor-final {
+    position: relative;
+    width: 100%;
+    height: 160px;
+    background-color: transparent;
+  }
+  .transferencia-frame {
+    position: relative;
+    top: 65px;
+    margin: auto;
+    width: 90%;
+    height: 250px;
+    z-index: 25;
+    background-color: rgb(255, 96, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    fill-opacity: 0%;
+    box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  .tarjetas-frame {
+    position: relative;
+    top: 0px;
+    margin: auto;
+    width: 90%;
+    height: 350px;
+    z-index: 25;
+    background-color: rgb(255, 96, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    fill-opacity: 0%;
+    box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+<h1>PRODUCTOS PA:</h1>
+
+{{#each products}}
+    <div class="prodFrame">
+        <p class="prodTitle-creator prodTitle-position">{{this.title}}</p>
+        <p class="prodDescription-creator prodDescription-position">{{this.description}}</p>
+        <p class="prodPrice-creator prodPrice-position">{{this.price}}</p>
+        <img src={{this.thumbnail}} alt={{this.title}} class="prodImage-creator prodImage-position">
+        {{#if this.inStock }}
+            <button type="button" class="prodAddButton prodAddButton-enabled prodAddButton-position">SUMAR AL CARRITO</button>
+        {{else}}
+            <button disabled type="button" class="prodAddButton prodAddButton-disabled prodAddButton-position">SIN STOCK</button>
+        {{/if}}
+    </div>
+    <div class="productSeparador"></div>
+{{/each}}
+
+

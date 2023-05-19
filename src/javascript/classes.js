@@ -1,4 +1,5 @@
-import fs, { existsSync } from "fs"
+import UpdaterManager from "../javascript/updaterManager.js"
+import fs from "fs"
 
 class Producto {
     constructor (data, id) {
@@ -51,6 +52,8 @@ class ProductManager {
                 this.#products.push(prod)
                 fs.writeFileSync(this.#path, JSON.stringify({id: this.#id, products: this.#products}, null, "\t"))
     
+                UpdaterManager.ProductUpdated("UNIQUE_UPDATE", prod)
+
                 return {success: true, message: "success", id: prod.id}
             } else {
                 return {success: false, message: "addProduct: error"}
@@ -70,10 +73,10 @@ class ProductManager {
             const array = JSON.parse(jsonString)
 
             if (array.products.length == 0) return { message: "Not found" }
-            return { message: "success", products: array.products }
+            return { success: true, message: "success", products: array.products }
         } catch(err) {
             console.log("getProducts:", err)
-            return { message: "getProducts: error" }
+            return { success: false, message: "getProducts: error" }
         }
     }
 
@@ -113,6 +116,8 @@ class ProductManager {
                 fs.writeFileSync(this.#path, JSON.stringify({id: this.#id, products: this.#products}, null, "\t"))
             }
 
+            UpdaterManager.ProductUpdated("UNIQUE_UPDATE",  this.#products[i])
+
             return { success: true, message: "updateProduct: done", beforeChanges: arrayCopy, afterChanges: this.#products[i]}
         } catch(err) {
             console.log(err)
@@ -129,6 +134,9 @@ class ProductManager {
             const deleted = this.#products.filter(e => e.id == id)
             this.#products = this.#products.filter(e => e.id != id)
             fs.writeFileSync(this.#path, JSON.stringify({id: this.#id, products: this.#products}, null, "\t"))
+
+            UpdaterManager.ProductUpdated("SERVER_ALLPRODUCTS_UPDATE_EVENT",  this.#products)
+
             return { success: true, message: "deleteProduct: done", products: deleted}
         } catch(err) {
             console.log(err)

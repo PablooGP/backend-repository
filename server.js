@@ -1,18 +1,35 @@
-import express from "express"
-import router from "./api/index.js"
-import error_handler from "./middlewares/errorHandler.js"
-import notfound_handler from "./middlewares/notfoundHandler.js"
+import { Server } from "socket.io"
+import httpServer from "./app.js"
+import {ProductManager, CartManager} from "./src/javascript/exports.js"
+import UpdaterManager from "./src/javascript/updaterManager.js"
 
-const SERVER = express()
-const PORT = 8080
-const ready = () => console.log("Server ready on port", PORT)
+const socketServer = new Server(httpServer)
 
-SERVER.use(express.static("public"))
+UpdaterManager.AddProductUpdater((type, content) => {
+    if (type == "FULL_UPDATE") {
+        socketServer.emit("SERVER_ALLPRODUCTS_UPDATE_EVENT", content)
+    } else if (type == "UNIQUE_UPDATE") {
+        socketServer.emit("SERVER_UNIQUEPRODUCT_UPDATE_EVENT", content)
+    }
+})
 
-SERVER.use(express.json())
-SERVER.use(express.urlencoded({extended:true}))
-SERVER.use("/", router)
-SERVER.use(error_handler)
-SERVER.use(notfound_handler)
+socketServer.on("connection", socket => {
 
-SERVER.listen(PORT, ready)
+    console.log("cliente conectado")
+    socket.on("getCartContent", (cid) => {
+        try {
+            const cartResponse = CartManager.getCartById(cid)
+            if (cartResponse.success) {
+                let i = 0
+                cartResponse.cart.products.forEach(e => { i += e.x })
+                socket.emit("cartUpdated", i)
+            }
+        } catch(err) {
+            console.log(err)
+        }
+    })
+
+    socket.on("disconnect", () => {
+        console.log("el cliente se desconecto")
+    })
+})

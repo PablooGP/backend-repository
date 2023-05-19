@@ -1,0 +1,154 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productFrame {
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+    position: relative;
+    width: 840px;
+    height: 280px;
+    top: 35px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.productFrame-image {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 20px;
+    top: 20px;
+
+    background: rgba(255, 255, 255, 0);
+}
+
+.productSeparador {
+    margin: auto;
+    position: relative;
+    height: 35px;
+    width: 100%
+}
+
+.productTitle {
+    position: absolute;
+    width: 544px;
+    height: 50px;
+    left: 280px;
+    top: 20px;
+
+    font-family: 'Kreon';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.productDescription {
+    position: absolute;
+    width: 544px;
+    height: 135px;
+    left: 280px;
+    top: 94px;
+
+    font-family: 'Kreon';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+
+    color: rgba(0, 0, 0, 0.86);
+
+}
+
+.productPrice {
+    position: absolute;
+    width: 75%;
+    height: 38px;
+    left: 280px;
+    bottom: 20px;
+
+    font-family: 'Kreon';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: auto;
+    
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.productFrame-addcartButton-enabled {
+    position: absolute;
+    width: 228px;
+    height: 55px;
+    right: 16px;
+    bottom: 20px;
+
+    background: #DC3545;
+    border-radius: 8px;
+
+    font-family: 'Kreon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    border: none;
+    
+    color: #FFFFFF;
+
+}
+
+.productFrame-addcartButton-disabled {
+    position: absolute;
+    width: 228px;
+    height: 55px;
+    right: 16px;
+    bottom: 20px;
+
+    background: rgba(220, 53, 69, 0.5);
+    border-radius: 8px;
+
+    font-family: 'Kreon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+
+    pointer-events: none;
+}
+
+
+nav,
+main,
+footer {
+    width: 100%;
+}
+
+main {
+    flex-grow: 1;
+}

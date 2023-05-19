@@ -1,0 +1,198 @@
+/* (script _variables.scss) se que esto no deberia de hacerlo pero es solo para probar el funcionamiento de las variables */
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px; }
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+
+.body {
+  background-color: aquamarine; }
+
+.prodFrame {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  position: relative;
+  width: 840px;
+  height: 280px;
+  top: 35px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px; }
+
+.prodImage-creator {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  left: 20px;
+  top: 20px;
+  background: rgba(255, 255, 255, 0); }
+
+.prodTitle-creator {
+  position: absolute;
+  width: 544px;
+  height: 50px;
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 35px;
+  color: rgba(0, 0, 0, 0.75); }
+
+.prodDescription-creator {
+  position: absolute;
+  width: 544px;
+  height: 135px;
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.86); }
+
+.prodPrice-creator {
+  position: absolute;
+  width: 75%;
+  height: 38px;
+  font-family: 'Kreon';
+  font-weight: 900;
+  font-size: 40px;
+  line-height: auto;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.75); }
+
+.prodImage-creator {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  left: 20px;
+  top: 20px;
+  background: rgba(255, 255, 255, 0); }
+
+.prodAddButton {
+  position: absolute;
+  width: 228px;
+  height: 55px;
+  border-radius: 8px;
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  color: #FFFFFF; }
+
+.prodAddButton-disabled {
+  background: rgba(220, 53, 69, 0.5); }
+
+.prodAddButton-enabled {
+  background: #DC3545; }
+
+.prodAddButton-position {
+  right: 16px;
+  bottom: 20px; }
+
+.prodImage-position {
+  left: 20px;
+  top: 20px; }
+
+.prodTitle-position {
+  left: 280px;
+  top: 20px; }
+
+.prodDescription-position {
+  left: 280px;
+  top: 94px; }
+
+.prodPrice-position {
+  left: 280px;
+  bottom: 20px; }
+
+.prodPrice-position-bigproduct {
+  left: 280px;
+  bottom: 20px; }
+
+.prodTitle-position-bigproduct {
+  left: 440px;
+  top: 186px; }
+
+.prodAddButton-position-bigproduct {
+  right: 624px;
+  bottom: 336px; }
+
+.prodImage-big {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: calc(50% - 500px/2 - 270px);
+  top: 244px; }
+
+.productSeparador {
+  margin: auto;
+  position: relative;
+  height: 35px;
+  width: 100%; }
+
+.cotizadorAndreani {
+  position: absolute;
+  right: 624px;
+  bottom: 520px; }
+
+.cotizadorOca {
+  position: absolute;
+  right: 624px;
+  bottom: 472px; }
+
+.prodCotizador-size {
+  width: 316px;
+  height: 40px; }
+
+.itemCotizador-background {
+  background: rgba(34, 174, 31, 0.75);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px; }
+
+.itemCotizador-text {
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center; }
+
+.addStock-background {
+  position: absolute;
+  width: 77px;
+  height: 54px;
+  right: 863px;
+  bottom: 336px;
+  background: rgba(198, 198, 198, 0.01);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px; }
+
+.addStock-main {
+  position: absolute;
+  width: 55px;
+  height: 54px;
+  right: 885px;
+  bottom: 336px;
+  background: rgba(198, 198, 198, 0.5);
+  border-radius: 8px 0px 0px 8px; }
+
+.bigUniqueProduct {
+  width: 100%;
+  height: 500px; }
